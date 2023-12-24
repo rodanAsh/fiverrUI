@@ -1,0 +1,54 @@
+.mygigs{
+    display: flex;
+    justify-content: center;
+    
+    .container{
+        width: 1400px;
+        padding: 50px 0;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button{
+                padding: 10px;
+                background-color: #1dbf73;
+                color: #fff;
+                font-weight: 500;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        table{
+            width: 100%;
+
+            tr{
+                height: 50px;
+
+                th{
+                    text-align: left;
+                }
+
+                td{
+
+                    .img{
+                        width: 50px;
+                        height: 25px;
+                        object-fit: cover;
+                    }
+                    .delete{
+                        width: 25px;
+                        cursor: pointer;
+                    }
+
+                }
+                &:nth-child(even){
+                    background-color: #1dbf730f;
+                }
+            }
+
+        }
+    }
+}

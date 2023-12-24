@@ -1,0 +1,28 @@
+.catcard{
+    width: 252px;
+    height: 344px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .desc{
+        position: absolute;
+        font-weight: 300;
+        left: 15px;
+        top: 15px;
+    }
+    .title{
+        position: absolute;
+        font-weight: 500;
+        font-size: 24px;
+        top: 40px;
+        left: 15px;
+
+    }
+}

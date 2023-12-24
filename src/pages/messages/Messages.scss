@@ -1,0 +1,55 @@
+.messages{
+    display: flex;
+    justify-content: center;
+    
+    .container{
+        width: 1400px;
+        padding: 50px 0;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        table{
+            width: 100%;
+
+            tr{
+                height: 100px;
+
+                th{
+                    text-align: left;
+                }
+
+                td{
+                    padding: 10px;
+                    color: #999;
+
+                    &:first-child{
+                        color: #000;
+                        font-weight: 500;
+                    }
+
+                    button{
+                        padding: 10px;
+                        background-color: #1dbf73;
+                        color: #fff;
+                        font-weight: 500;
+                        border-radius: 5px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    .disabled{
+                        display: none;
+                    }
+
+                }
+                &.active{
+                    background-color: #1dbf730f;
+                }
+            }
+
+        }
+    }
+}
